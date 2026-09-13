@@ -1,4 +1,4 @@
-# dsh-skill-market
+# dsh-skill-hub
 
 **简体中文** | [English](./README.en.md)
 
@@ -89,8 +89,8 @@ dsh-skill-hub/
 
 ```yaml
 - insert:
-    - id: dsh-skill-market
-      name: 'dsh-skill-market'
+    - id: dsh-skill-hub
+      name: 'dsh-skill-hub'
       config:
         skillhubApiBase: https://api.skillhub.tencent.com
         clawhubApiBase: https://clawhub.com
