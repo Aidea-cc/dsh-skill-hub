@@ -33,19 +33,19 @@ DeepSeek Harness 技能市场插件 —— 聚合 SkillHub + ClawHub 双数据�
 ## 安装
 
 ```bash
-dsh plugin --profile web add "github:pn1024/dsh-skill-market"
+dsh plugin --profile web add "github:Aidea-cc/dsh-skill-hub"
 ```
 
 或本地路径安装：
 
 ```bash
-dsh plugin --profile web add "/path/to/dsh-skill-market"
+dsh plugin --profile web add "/path/to/dsh-skill-hub"
 ```
 
 ## 架构
 
 ```
-dsh-skill-market/
+dsh-skill-hub/
 ├── package.json           # dsh.bundle.patch + dsh.client 声明
 ├── cordis.patch.yml       # 插件行注册 + 配置
 ├── src/

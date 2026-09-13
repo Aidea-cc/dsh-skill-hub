@@ -29,11 +29,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pn1024/dsh-skill-market.git"
+    "url": "https://github.com/Aidea-cc/dsh-skill-hub.git"
   },
-  "homepage": "https://github.com/pn1024/dsh-skill-market",
+  "homepage": "https://github.com/Aidea-cc/dsh-skill-hub",
   "bugs": {
-    "url": "https://github.com/pn1024/dsh-skill-market/issues"
+    "url": "https://github.com/Aidea-cc/dsh-skill-hub/issues"
   },
   "dsh": {
     "engines": {

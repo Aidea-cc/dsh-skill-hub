@@ -33,19 +33,19 @@ Chat-input skill picker:
 ## Installation
 
 ```bash
-dsh plugin --profile web add "github:pn1024/dsh-skill-market"
+dsh plugin --profile web add "github:Aidea-cc/dsh-skill-hub"
 ```
 
 Or install from a local path:
 
 ```bash
-dsh plugin --profile web add "/path/to/dsh-skill-market"
+dsh plugin --profile web add "/path/to/dsh-skill-hub"
 ```
 
 ## Architecture
 
 ```
-dsh-skill-market/
+dsh-skill-hub/
 ├── package.json           # dsh.bundle.patch + dsh.client declarations
 ├── cordis.patch.yml       # plugin registration + config
 ├── src/
