@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const root = 'C:/Users/Administrator/Desktop/deepseek_gongwen/dsh-skill-hub';
-const pngPath = path.join(root, 'assets/xingxiang_logo_icon.png');
+const root = 'C:/Users/Administrator/DSH/plugins/dsh-skill-hub';
+const pngPath = path.join(root, 'assets/my_logo.png');   //在此处修改logo后，执行 node fix_logo.cjs 即可重新生成logo
 const clientPath = path.join(root, 'src/client.js');
 
 const b64 = fs.readFileSync(pngPath).toString('base64');
